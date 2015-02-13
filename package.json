@@ -1,0 +1,24 @@
+{
+  "name": "slacklib",
+  "version": "0.0.1",
+  "description": "Slack RTM checked for links, images etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexloi/slacklib.git"
+  },
+  "keywords": [
+    "slack",
+    "rtm",
+    "repo"
+  ],
+  "author": "StreetHub <alex@streethub.com> (http://tech.streethub.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexloi/slacklib/issues"
+  },
+  "homepage": "https://github.com/alexloi/slacklib"
+}
