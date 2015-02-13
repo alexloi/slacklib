@@ -4,7 +4,7 @@
   "description": "Slack RTM checked for links, images etc.",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "mocha -R spec test"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,14 @@
   "bugs": {
     "url": "https://github.com/alexloi/slacklib/issues"
   },
-  "homepage": "https://github.com/alexloi/slacklib"
+  "homepage": "https://github.com/alexloi/slacklib",
+  "dependencies": {
+    "lodash": "^3.2.0",
+    "chai": "^2.0.0",
+    "mocha": "^2.1.0",
+    "chance": "^0.7.3",
+    "slackbotapi": "git://github.com/alexloi/slackbotapi.git",
+    "eventemitter2": "^0.4.14",
+    "URIjs": "^1.14.1"
+  }
 }
